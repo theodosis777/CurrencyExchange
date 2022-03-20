@@ -1,0 +1,61 @@
+p {
+  font-size: 20px;
+  color: gray;
+  margin-left: 15px;
+}
+.dataTable {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  font-size: 20px;
+  height: 25px;
+}
+
+td {
+  text-align: center;
+  height: 25px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(238, 238, 238);
+}
+
+button {
+  font-weight: bold;
+  font-size: 15px;
+  border: 0px;
+}
+
+thead button.ascending::after {
+  content: url('../../assets/asc.png');
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: url('../../assets/desc.png');
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.asc {
+  content: url('../../assets/asc.png');
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.desc {
+  content: url('../../assets/desc.png');
+  display: inline-block;
+  margin-left: 1em;
+}

@@ -1,0 +1,93 @@
+.grid {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+.heading {
+  font-size: 25px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.mobileContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  font-size: 20px;
+  width: 150px;
+  height: 36px;
+  margin-left: 15px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+.select {
+  font-size: 15px;
+  width: 150px;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+.equalSign {
+  font-size: 25px;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 15px;
+}
+
+.savebutton {
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border-color: white;
+  background-color: rgb(73, 205, 94);
+  color: white;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 65px;
+}
+
+.exchangeMessage {
+  width: 400px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border-color: white;
+  background-color: rgb(73, 205, 94);
+  color: white;
+  margin-left: 15px;
+}
+
+.filterButton {
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid rgb(27, 49, 168);
+  background-color: white;
+  color: rgb(27, 49, 168);
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 65px;
+}
+
+p {
+  font-size: 20px;
+  color: gray;
+  margin-left: 15px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 15px;
+  border: 0px;
+}
+
+.dropdown {
+  border: 1px solid gray;
+}

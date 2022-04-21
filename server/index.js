@@ -10,7 +10,7 @@ const updateInterval = 1000 * 60 * 5; ///UDATE INTERVAL FOR RATES  miliseconds*s
 app.use(express.json());
 app.use(cors());
 mongoose.connect(
-  'mongodb+srv://theodosis:1234@cluster0.wazy6.mongodb.net/CurrencyConverter?retryWrites=true&w=majority'
+  'mongodb+srv://theodosis:theodosis@cluster0.wazy6.mongodb.net/CurrencyConverter?retryWrites=true&w=majority'
 ); ///CONNECTION STRING WITH MONGO DB
 
 app.listen(PORT, console.log(`server running on port ${PORT}`));
